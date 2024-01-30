@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.mulesoft.training</groupId>
+	<groupId>a0af5d2d-1db7-414b-8855-fad4878209ba</groupId>
 	<artifactId>greeetings-parametrized</artifactId>
 	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
@@ -61,6 +61,7 @@
 				<configuration>
 					<cloudhub2Deployment>
 						<uri>https://anypoint.mulesoft.com</uri>
+						<businessGroupId>${project.groupId}</businessGroupId>
 						<provider>MC</provider>
 						<environment>${environment}</environment>
 						<!-- Frankfurt -->
