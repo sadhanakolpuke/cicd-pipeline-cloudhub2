@@ -148,4 +148,4 @@ jobs:
       env:
         AUTHOR: "Mr Bean"
       run: |
-        mvn clean deploy --file pom.xml -DmuleDeploy -Denvironment="dev" -Dca.client_id="${{ secrets.ANYPOINT_CLIENTID }}" -Dca.client_secret="${{ secrets.ANYPOINT_CLIENTSECRET }}" -DapplicationName="cicd-pipeline-cloudhub2" -Dmessage="WRITE YOUR OWN MESSAGE"         
+        mvn clean deploy --file pom.xml -DmuleDeploy -Denvironment="dev" -Dca.client_id="${{ secrets.ANYPOINT_CLIENTID }}" -Dca.client_secret="${{ secrets.ANYPOINT_CLIENTSECRET }}" -DapplicationName="greeetings-parametrized" -Dmessage="WRITE YOUR OWN MESSAGE"         
