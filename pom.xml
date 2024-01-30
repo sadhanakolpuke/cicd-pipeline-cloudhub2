@@ -6,7 +6,7 @@
 
 	<groupId>a0af5d2d-1db7-414b-8855-fad4878209ba</groupId>
 	<artifactId>greeetings-parametrized</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>mule-application</packaging>
 
 	<name>greeetings-parametrized</name>
